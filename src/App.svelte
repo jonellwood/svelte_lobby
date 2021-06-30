@@ -4,6 +4,7 @@
   import Holidays from './Holidays.svelte';
   import Employees from './Employees.svelte';
   import Directory from './Directory.svelte';
+  import Clock from './Clock.svelte';
 
   let holidays;
   let holiday;
@@ -15,6 +16,7 @@
   <Directory />
   <h1>Holidays this month</h1>
   <Holidays {holidays} />
+  <Clock />
   <Employees />
 </main>
 

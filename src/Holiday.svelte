@@ -1,5 +1,8 @@
 <script>
   export let holiday;
+  let picNum = 1;
+  let newPicNum = picNum += 1;
+  let src=""
 </script>
 
 
@@ -9,6 +12,7 @@
     Date: <b>{holiday.date}</b>
   </small><br/>
   <img src="https://source.unsplash.com/random/100x100?sig=1" alt="randomness"><br/>
+  <!-- <img src="https://picsum.photos/id/{newPicNum}" alt="brokenLink"/> -->
   <small>
     This year it falls on a <b>{holiday.weekday.date.name}</b>
   </small>

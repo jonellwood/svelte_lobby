@@ -29,9 +29,9 @@ let icon = faCircle;
     margin-right: 30em;
     margin-top: 5px;
   }
-  .icon{
+  /* .icon{
     color: hotpink;
-  }
+  } */
   .directory{
     display: grid;
     grid-template-columns: 1fr;
