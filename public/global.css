@@ -64,3 +64,8 @@ button:not(:disabled):active {
 button:focus {
 	border-color: #666;
 }
+
+.svelte-1lrstxb{
+  margin: 20px;
+  background: #fff;
+}

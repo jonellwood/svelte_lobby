@@ -5,6 +5,7 @@
   import Employees from './Employees.svelte';
   import Directory from './Directory.svelte';
   import Clock from './Clock.svelte';
+  import NextHoliday from './nextHoliday.svelte';
 
   let holidays;
   let holiday;
@@ -13,10 +14,11 @@
 
 
 <main>
+  <!-- <Clock /> -->
+  <NextHoliday />
   <Directory />
-  <h1>Holidays this month</h1>
-  <Holidays {holidays} />
-  <Clock />
+  <!-- <h1>Holidays this month</h1> -->
+  <!-- <Holidays {holidays} /> -->
   <Employees />
 </main>
 
