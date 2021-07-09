@@ -5,7 +5,7 @@
   import Employees from './Employees.svelte';
   import Directory from './Directory.svelte';
   import Clock from './Clock.svelte';
-  import NextHoliday from './nextHoliday.svelte';
+  import NextHoliday from './NextHoliday.svelte';
 
   let holidays;
   let holiday;
